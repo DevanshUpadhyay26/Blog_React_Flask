@@ -6,17 +6,22 @@ Add a comment system for blog posts
 Implement a search functionality
 ## Backend: Flask
 Login: 
-User: 1. Admin(Can do anything to a normal user’s post, also can delete a user from db, and delete a post, comment also.) 
-2. Normal – Create(POST method), Read(GET method), Comment(PUT method), UPDATE blog Posts(PUT Method)
+User: 
+1. Admin(Can do anything to a normal user’s post, also can delete a user from db, and delete a post, comment also.) 
+2. Normal – 
+Create(POST method), 
+Read(GET method), 
+Comment(PUT method), 
+UPDATE blog Posts(PUT Method)
 Search Functionality: Parse The Post Title and display that post. (Optional)
-Post Form: Title, Short Description, Long Description, Comment Set up a RESTful API with the following endpoints:
-#### API Endpoints
+Post Form: Title, Short Description, Long Description, 
+#### RestFul API Endpoints
 GET/posts [list all posts]
 GET /posts/:id [get a specific post]
 POST /posts [create a new post]
 PUT /posts/:id [update a post]
 DELETE /posts/:id [delete a post]
-#### Database Implementation
+#### Database Implementation: SQL(MySQL)
 Implement a simple database model for blog posts using any SQL or NoSQL database
 SQLAlchemy OR SQLite
 Implement basic error handling and input validation
